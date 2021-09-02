@@ -1,0 +1,25 @@
+{
+  "eachSimulationRepeat": 100,
+  "vertexWeightUpperBound": 50,
+  "edgeWeightUpperBound": 10,
+  "simulations": [
+    {
+      "rounds": 1,
+      "graph": {
+        "topology": "random",
+        "vertex": 100,
+        "hideNumber": 5,
+        "canKnowCostInAdvance": false
+      },
+      "hider": {
+        "type": "normal",
+        "strategy": "hAllLocation",
+        "portion": 0.2
+      },
+      "seeker": {
+        "type": "normal",
+        "strategy": "sBacktrackGreedyAll"
+      }
+    }
+  ]
+}

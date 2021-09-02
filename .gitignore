@@ -1,0 +1,31 @@
+# java class file
+*.class
+
+# Package Files #
+*.jar
+/target
+/.settings
+/.classpath
+/.project
+/.idea
+*.iml
+
+# ignore Maven generated target folders
+target
+out
+
+# ignore IDE files
+.project
+.classpath
+.settings
+.factorypath
+.metadata
+.idea
+
+# ignore log files
+*.log
+
+.DS_Store
+
+result
+build
